@@ -1,0 +1,49 @@
+name: kanha
+description: "kanha project"
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.1
+
+#======================================================
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #------------ package -----------
+  cupertino_icons:
+  device_preview:
+  get:
+  smooth_page_indicator: 
+  animated_text_kit: 
+  youtube_player_flutter: 
+
+#======================================================
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo2.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo2.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+
+  flutter_lints: ^4.0.0
+
+#======================================================
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+#======================================================
